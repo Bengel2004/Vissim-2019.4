@@ -1,0 +1,20 @@
+$VISION
+* File: L:\Vissimnetwerken\Zuid\Stadhouderskade\maatregel UAM\3 Vissimfiles_huidig_ontwerp\ref_2018_ref_50.inpx
+* Comment: 
+* Date: 31-8-2020 10:52:10
+* PTV Vissim: 9.00 [10]
+* 
+* Table: Vehicles In Network
+* 
+* NO: No, Number (Number of the vehicle)
+* VEHTYPE: VehType, Vehicle type (Select Vehicle type from the list box)
+* SIMSEC: SimSec, Simulation second (Simulation time [s]) [s]
+* SPEED: Speed, Speed (Speed at the end of the time step) [km/h]
+* TMINNETTOT: TmInNetTot, Time in network (total) (The total time which a vehicle is in the network. The value is saved only in the last second before the vehicle leaves the network. Also record the Delay time for the vehicle in this time step.  For vehicles that are still in the network at the end of the simulation, you can determine the total time on the basis of their utilization time.  The recording file contains the total time = 0.00, as long as the vehicle is still in the network.) [s]
+* POS: Pos, Position (Distance on the link from the beginning of the link or connector) [m]
+* COORDREAR: CoordRear, Coordinate rear (Coordinate of rear end position of vehicle at the end of the time step)
+* LENGTH: Length, Length (Minimum and maximum vehicle length (see “Using 2D/3D model distributions”)) [m]
+* 
+* No; VehType; SimSec; Speed; TmInNetTot; Pos; CoordRear; Length
+*
+$VEHICLE:NO;VEHTYPE;SIMSEC;SPEED;TMINNETTOT;POS;COORDREAR;LENGTH
